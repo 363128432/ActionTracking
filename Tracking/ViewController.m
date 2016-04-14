@@ -24,4 +24,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)pushTableVC:(id)sender {
+    [self performSegueWithIdentifier:@"TableViewController" sender:nil];
+}
+
+- (IBAction)pushCollectionVC:(id)sender {
+    [self performSegueWithIdentifier:@"CollectionViewController" sender:nil];
+}
+
 @end

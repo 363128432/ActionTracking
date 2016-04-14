@@ -13,6 +13,13 @@
 		A80693911CBF31F5007DD891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A806938F1CBF31F5007DD891 /* Main.storyboard */; };
 		A80693931CBF31F5007DD891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80693921CBF31F5007DD891 /* Assets.xcassets */; };
 		A80693961CBF31F5007DD891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80693941CBF31F5007DD891 /* LaunchScreen.storyboard */; };
+		A80693A31CBF3214007DD891 /* UIControl+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = A806939E1CBF3214007DD891 /* UIControl+Tracking.m */; };
+		A80693A41CBF3214007DD891 /* UITableView+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = A80693A01CBF3214007DD891 /* UITableView+Tracking.m */; };
+		A80693A51CBF3214007DD891 /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = A80693A21CBF3214007DD891 /* UIViewController+Tracking.m */; };
+		A80693A81CBF379A007DD891 /* UICollectionView+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = A80693A71CBF379A007DD891 /* UICollectionView+Tracking.m */; };
+		A80693AB1CBF39DF007DD891 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80693AA1CBF39DF007DD891 /* TableViewController.m */; };
+		A80693AE1CBF39EB007DD891 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80693AD1CBF39EB007DD891 /* CollectionViewController.m */; };
+		A80693B11CBF3CC1007DD891 /* TarckingDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A80693B01CBF3CC1007DD891 /* TarckingDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		A80693921CBF31F5007DD891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A80693951CBF31F5007DD891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A80693971CBF31F5007DD891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A806939D1CBF3214007DD891 /* UIControl+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Tracking.h"; sourceTree = "<group>"; };
+		A806939E1CBF3214007DD891 /* UIControl+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Tracking.m"; sourceTree = "<group>"; };
+		A806939F1CBF3214007DD891 /* UITableView+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Tracking.h"; sourceTree = "<group>"; };
+		A80693A01CBF3214007DD891 /* UITableView+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Tracking.m"; sourceTree = "<group>"; };
+		A80693A11CBF3214007DD891 /* UIViewController+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tracking.h"; sourceTree = "<group>"; };
+		A80693A21CBF3214007DD891 /* UIViewController+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracking.m"; sourceTree = "<group>"; };
+		A80693A61CBF379A007DD891 /* UICollectionView+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+Tracking.h"; sourceTree = "<group>"; };
+		A80693A71CBF379A007DD891 /* UICollectionView+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+Tracking.m"; sourceTree = "<group>"; };
+		A80693A91CBF39DF007DD891 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		A80693AA1CBF39DF007DD891 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		A80693AC1CBF39EB007DD891 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		A80693AD1CBF39EB007DD891 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		A80693AF1CBF3CC1007DD891 /* TarckingDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TarckingDictionary.h; sourceTree = "<group>"; };
+		A80693B01CBF3CC1007DD891 /* TarckingDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TarckingDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +79,24 @@
 		A80693851CBF31F5007DD891 /* Tracking */ = {
 			isa = PBXGroup;
 			children = (
+				A806939D1CBF3214007DD891 /* UIControl+Tracking.h */,
+				A806939E1CBF3214007DD891 /* UIControl+Tracking.m */,
+				A806939F1CBF3214007DD891 /* UITableView+Tracking.h */,
+				A80693A01CBF3214007DD891 /* UITableView+Tracking.m */,
+				A80693A11CBF3214007DD891 /* UIViewController+Tracking.h */,
+				A80693A21CBF3214007DD891 /* UIViewController+Tracking.m */,
+				A80693A61CBF379A007DD891 /* UICollectionView+Tracking.h */,
+				A80693A71CBF379A007DD891 /* UICollectionView+Tracking.m */,
+				A80693AF1CBF3CC1007DD891 /* TarckingDictionary.h */,
+				A80693B01CBF3CC1007DD891 /* TarckingDictionary.m */,
 				A80693891CBF31F5007DD891 /* AppDelegate.h */,
 				A806938A1CBF31F5007DD891 /* AppDelegate.m */,
 				A806938C1CBF31F5007DD891 /* ViewController.h */,
 				A806938D1CBF31F5007DD891 /* ViewController.m */,
+				A80693A91CBF39DF007DD891 /* TableViewController.h */,
+				A80693AA1CBF39DF007DD891 /* TableViewController.m */,
+				A80693AC1CBF39EB007DD891 /* CollectionViewController.h */,
+				A80693AD1CBF39EB007DD891 /* CollectionViewController.m */,
 				A806938F1CBF31F5007DD891 /* Main.storyboard */,
 				A80693921CBF31F5007DD891 /* Assets.xcassets */,
 				A80693941CBF31F5007DD891 /* LaunchScreen.storyboard */,
@@ -149,9 +184,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A80693A31CBF3214007DD891 /* UIControl+Tracking.m in Sources */,
 				A806938E1CBF31F5007DD891 /* ViewController.m in Sources */,
 				A806938B1CBF31F5007DD891 /* AppDelegate.m in Sources */,
 				A80693881CBF31F5007DD891 /* main.m in Sources */,
+				A80693B11CBF3CC1007DD891 /* TarckingDictionary.m in Sources */,
+				A80693A81CBF379A007DD891 /* UICollectionView+Tracking.m in Sources */,
+				A80693A41CBF3214007DD891 /* UITableView+Tracking.m in Sources */,
+				A80693A51CBF3214007DD891 /* UIViewController+Tracking.m in Sources */,
+				A80693AB1CBF39DF007DD891 /* TableViewController.m in Sources */,
+				A80693AE1CBF39EB007DD891 /* CollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
